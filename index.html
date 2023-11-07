@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creator</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    /> -->
+
+    <link rel="stylesheet" href="./public/style/style.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="page-viewer"></div>
+
+      <div class="page-editor">
+        <div class="add-element-group container">
+          <div class="btn-group">
+            <button id="addHeading" class="ele btn btn-active">
+              Add Heading
+            </button>
+            <button id="addParagraph" class="ele btn">Add Paragraph</button>
+            <button id="addList" class="ele btn">Add List</button>
+            <button id="addTable" class="ele btn">Add Table</button>
+            <button id="addLink" class="ele btn">Add Link</button>
+            <button id="addQuote" class="ele btn">Add Quote</button>
+            <button id="addImage" class="ele btn">Add Image</button>
+            <button id="addBreak" class="ele btn">Add Space</button>
+          </div>
+        </div>
+        <div class="element-property container">
+          <div class="Heading-prop prop prop-active">
+            <div class="i-btn">
+              <span
+                id="h1"
+                class="material-symbols-outlined icon-style active-head"
+              >
+                format_h1
+              </span>
+            </div>
+            <div class="i-btn">
+              <span id="h2" class="material-symbols-outlined icon-style">
+                format_h2
+              </span>
+            </div>
+            <div class="i-btn">
+              <span id="h3" class="material-symbols-outlined icon-style">
+                format_h3
+              </span>
+            </div>
+            <div class="i-btn">
+              <span id="h4" class="material-symbols-outlined icon-style">
+                format_h4
+              </span>
+            </div>
+            <div class="i-btn">
+              <span id="h5" class="material-symbols-outlined icon-style">
+                format_h5
+              </span>
+            </div>
+            <div class="i-btn">
+              <span id="h6" class="material-symbols-outlined icon-style">
+                format_h6
+              </span>
+            </div>
+          </div>
+          <div class="para-prop prop">
+            <!-- <div class="i-btn">
+              <span class="material-symbols-outlined icon-style"> p </span>
+            </div> -->
+            <div class="i-btn">
+              <span class="material-symbols-outlined icon-style active-head">
+                align_horizontal_left
+              </span>
+            </div>
+            <div class="i-btn">
+              <span class="material-symbols-outlined icon-style">
+                align_horizontal_center
+              </span>
+            </div>
+            <div class="i-btn">
+              <span class="material-symbols-outlined icon-style">
+                align_horizontal_right
+              </span>
+            </div>
+          </div>
+          <div class="list-prop prop">
+            <div class="i-btn">
+              <span class="material-symbols-outlined icon-style">
+                format_list_bulleted
+              </span>
+            </div>
+            <div class="i-btn">
+              <span class="material-symbols-outlined icon-style">
+                format_list_numbered_rtl
+              </span>
+            </div>
+          </div>
+          <div class="table-prop prop">
+            <div class="key-value">
+              <label class="key" for="rows">Rows:</label
+              ><input class="value" id="rows" type="number" value="2" />
+            </div>
+            <div class="key-value">
+              <label class="key" for="Columns">Columns:</label
+              ><input class="value" id="Columns" type="number" value="2" />
+            </div>
+          </div>
+          <div class="image-prop prop"></div>
+        </div>
+
+        <div class="text-property container">
+          <div class="i-btn">
+            <span class="material-symbols-outlined icon-style">
+              format_bold
+            </span>
+          </div>
+          <div class="i-btn">
+            <span class="material-symbols-outlined icon-style">
+              format_italic
+            </span>
+          </div>
+        </div>
+
+        <div class="content-preview container">
+          <div class="text-pre">
+            <textarea
+              name="text"
+              id="txtarea"
+              placeholder="Type your text here"
+            ></textarea>
+          </div>
+        </div>
+        <div class="commit-changes container">
+          <button id="Add" class="ele btn">Add</button>
+          <button id="Edit" class="ele btn">Edit</button>
+          <button id="Delete" class="ele btn">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script> -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
