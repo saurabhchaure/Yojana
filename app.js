@@ -14,7 +14,7 @@ const pageViewer = document.querySelector(".page-viewer");
 const editorPage = document.querySelectorAll(".page-editor");
 
 const setting = await Setting();
-console.log(setting);
+console.log(setting.creator);
 
 selectHeader();
 addEditElement();
