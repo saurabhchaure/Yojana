@@ -5,7 +5,7 @@ import {
   addEditElement,
   editExisting,
   changeElement,
-} from "./public/modules/addHeading.js";
+} from "../../public/modules/addHeading.js";
 
 // import setting from "./public/Setting/SETTING.json";
 

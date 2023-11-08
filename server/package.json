@@ -1,0 +1,21 @@
+{
+  "name": "yojana.com",
+  "version": "1.0.0",
+  "description": "Scheme Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Saurabh Chaure",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.0.0",
+    "path": "^0.12.7"
+  }
+}

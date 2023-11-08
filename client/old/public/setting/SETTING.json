@@ -1,0 +1,45 @@
+[
+  {
+    "creator": {
+      "mode": true,
+      "active_element": "list",
+      "active_sub_element": "ol",
+      "elements": [],
+      "text": {
+        "space": true,
+        "bold": true,
+        "italic": true,
+        "link": false,
+        "quote": false,
+        "horizontal_align": "left",
+        "vertical_align": "top",
+        "value": "Hello World!",
+        "html_value": [
+          {
+            "start": 0,
+            "end": 4,
+            "element": "strong"
+          },
+          {
+            "start": 4,
+            "end": 4,
+            "element": "br"
+          },
+          {
+            "start": 5,
+            "end": 10,
+            "element": "strong"
+          }
+        ]
+      },
+      "table": [],
+      "image": []
+    },
+
+    "editor": {
+      "mode": true,
+      "modify_element": { "status": false, "element": 0 },
+      "edit_element": { "status": false, "element": 3 }
+    }
+  }
+]
